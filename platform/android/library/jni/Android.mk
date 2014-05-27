@@ -1,6 +1,9 @@
 LOCAL_PATH := $(call my-dir)
 BYPASS_SRC := ../../../../src/
 
+# BOOST PATH
+BYPASS_INCLUDE_PATH := /usr/local/boost_1_55_0
+
 include $(CLEAR_VARS)
 
 LOCAL_MODULE	:= bypass
